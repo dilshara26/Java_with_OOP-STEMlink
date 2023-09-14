@@ -3,10 +3,11 @@ package Polymorphism;
 import java.security.PublicKey;
 
 public class Employee {
-    private String name;
-    private int employeeId;
-    private double hourlyRate=0;
-    private int hoursWorked=0;
+    public String name;
+
+    public int employeeId;
+    public double hourlyRate=0;
+    public int hoursWorked=0;
 
     // Constructor for full-time employees
     public Employee(String name, int employeeId) {
@@ -24,6 +25,9 @@ public class Employee {
     // Method to calculate earnings for a full-time employee
     public double calculateEarnings() {
         return 4000.0; // Assuming a fixed monthly salary for full-time employees
+    }
+    public void welcomeMessage(){
+        System.out.println("Welcome from the employee class");
     }
 
     // Method to calculate earnings for a part-time employee
