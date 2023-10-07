@@ -3,7 +3,7 @@ package Encapsulation;
 public class Person {
     public String vehicleType = "Car";
     // Private fields - encapsulate personal data
-    private String name;
+    public String name;
     private int age;
 //    protected field
     protected String country = "Sri Lanka";
@@ -14,6 +14,7 @@ public class Person {
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
+        this.country ="";
     }
 
     // Public methods - provide controlled access

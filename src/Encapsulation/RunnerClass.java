@@ -3,10 +3,12 @@ package Encapsulation;
 public class RunnerClass {
 
     public static void main(String[] args) {
-        Person p1 = new Person("Alice", 20);
-        System.out.println(p1.getName());
+        Person alice = new Person("Alice", 20);
+        System.out.println(alice.getName());
+        alice.name= "mary";
 
-        System.out.println(p1.getName());
+        Person john = new Person("John",20);
+        System.out.println(john.getName());
 
 
 
