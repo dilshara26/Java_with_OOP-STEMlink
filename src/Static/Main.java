@@ -8,8 +8,7 @@ public class Main {
 //        System.out.println(mercedes.getName());
 //        System.out.println(mercedes.getNumberOfCars());
 //
-//        System.out.println(premio.getName());
-//        System.out.println(premio.getNumberOfCars());
+
 
 
 //        System.out.println(mercedes.getNumberOfCars());
